@@ -1,4 +1,5 @@
 ﻿using System;
+using WeatherMap.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,8 @@ namespace WeatherMap
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new PaginaClima();
         }
 
         protected override void OnStart()
